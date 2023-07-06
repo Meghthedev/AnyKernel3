@@ -11,8 +11,8 @@ do.modules=0
 do.systemless=1
 do.cleanup=1
 do.cleanuponabort=0
-device.name1=a505f
-device.name2=a50dd
+device.name1=deen
+device.name2=deen_cn
 supported.versions=
 supported.patchlevels=
 '; } # end properties
@@ -26,7 +26,7 @@ set_perm_recursive 0 0 750 750 $ramdisk/init* $ramdisk/sbin;
 
 
 ## boot shell variables
-block=/dev/block/platform/13520000.ufs/by-name/boot;
+block=/dev/block/by-name/boot;
 is_slot_device=0;
 ramdisk_compression=auto;
 patch_vbmeta_flag=auto;
